@@ -58,6 +58,7 @@ plt.show()
 '''
 
 # Histogram
+
 df = pd.read_csv('data.csv')
 df['Duration'].plot(kind='hist')
 plt.show()
